@@ -1,0 +1,26 @@
+.galleryPage{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.galleryPage h1{
+    color: #fff;
+    margin-top: 10%;
+}
+.galleryCard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.galleryEveryCard{
+    width: 350px;
+    height: 350px;
+    color: #fff;
+    margin-top: 15%;
+}
+.galleryEveryCard .galleryImg{
+    width: 300px;
+}
+.galleryTime{
+    padding: 5px 0;
+}
